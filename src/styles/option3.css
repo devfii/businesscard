@@ -1,0 +1,156 @@
+body {
+    background: #23252C;
+
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-card {
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    height: 780px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#profile {
+    margin-top: -25px;
+    width: 317px;
+    background: #F5F5F5;
+    padding-bottom: 20px;
+    
+}
+#profile > h3{
+    color: #2B283A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 21px;
+}
+
+#profile > h4 {
+    color: #F47D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#profile > h5 {
+    color: #4A4E74;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.contact-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 15px auto;
+    gap: 20px;
+}
+
+
+.contact-btn > button{
+    border-radius: 6px;
+    width: 115px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+.email {
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--white, #FFF);
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.email > span {
+    padding-left: 8px;
+}
+.linkedin {
+    border: 0px solid var(--gray-300, #D1D5DB);
+    background: #5093E2;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    
+}
+
+.linkedin > span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    padding-left: 8px;
+}
+.fa-linkedin {
+    color:#FFFFFF
+}
+
+
+section h3 {
+    width: 242.712px;
+    height: 21px;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-left: 36px;
+    
+    
+}
+
+section p {
+    color: #4A4E74;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 247px;
+    margin-left: 36px;
+    
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    width: 317px;
+    height: 64px;
+    align-items: center;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    background: #D5D4D8;
+}
+
+.socials {
+    display: flex;
+    margin: auto;
+}
+
+.socials > img {
+    margin-left: 20px;
+    height: 25px;
+    width: 25px;
+    fill: #918E9B;
+}
